@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff7eb9, #ff65a3, #7afcff);
+}
+
+h1 {
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: funky 3s ease-in-out infinite alternate;
+}
+
+@keyframes funky {
+  from { transform: rotate(-5deg); }
+  to { transform: rotate(5deg); }
+}
